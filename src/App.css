@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+
+#root{
+  height: 100%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  width: 1024px;
+  background: #F2F2F2;
+}
+
+header {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 94%;
+
+  background: #4A90E2;
+  /*background: #4a90e2;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 1024px;
+  height: 64px;
+  left: 0px;
+  top: 0px;
+  
+  border: 6px solid #FFD004;
+  box-sizing: border-box;*/
+}
+header nav img{
+  position: absolute;
+  left: 4.1%;
+  right: 84.09%;
+  top: 13%;
+  bottom: 95.87%;
+  
+}
+
+header nav div span {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*
+header nav{
+  /*display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+  padding: 0 42px;
+  color: #fff;
+  min-width: 980px;
+  font-size: 14px;
+  position: absolute;
+  height: 18px;
+  left: 85.84%;
+  right: 7.23%;
+  top: calc(50% - 18px/2 - 501px);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+nav img{
+  height: 24px;
+}
+
+nav > span {
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+*/
