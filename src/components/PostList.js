@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import PostItem from './PostItem';
 
 class PostList extends Component {
+  // adc esta dep. p/ evitar bug - yarn add @babel/plugin-proposal-class-properties -D
   state = {
     posts: [
       {
